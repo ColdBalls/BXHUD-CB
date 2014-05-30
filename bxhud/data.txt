@@ -1,0 +1,8 @@
+name=BXHUD-CB
+desc=Minimal centered hud, created by Chippy, updated by Cold Balls
+creator=Cold Balls
+steamid= 76561198070085936
+url=https://github.com/ColdBalls/BXHUD-CB
+url=http://steamcommunity.com/groups/bxhud-cb
+version=1.6.7
+update_url=https://github.com/ColdBalls/BXHUD-CB/archive/master.zip

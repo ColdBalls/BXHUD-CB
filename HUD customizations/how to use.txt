@@ -3,5 +3,3 @@ Drag the contents of the stuff you want inside your \bxhud\ folder, shouldn't be
 ####################		IMPORTANT!!!!		########################
 
 If you want to use both the health cross and the permanent 3d model, install the health cross first, and then the 3d model, otherwise the 3d model will be permanently visible on the original location (left of the health) instead of in the bottom left.
-
-If you want the notification icons (bleeding, marked for death, etc), go to health/health without cross/with notification icons, or the same folder for the health cross. Maybe I hadn't made this clear enough, but here's the explanation.

@@ -880,7 +880,7 @@ Scheme
 			"2"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
 			}
@@ -1353,7 +1353,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1365,7 +1365,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1455,7 +1455,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1774,7 +1774,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"tall_lodef"	"14"
 				"antialias" "1"
 				"weight"	"400"
@@ -2242,7 +2242,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"  [!$OSX]
+				"tall"		"12"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"400"
 				"additive"	"0"
@@ -2362,7 +2362,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2595,7 +2595,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2659,7 +2659,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"

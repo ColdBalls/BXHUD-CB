@@ -1,4 +1,4 @@
-"Resource/UI/Scoreboard.res" //made at Miknando's request to fit ridiculously long names
+"Resource/UI/Scoreboard.res"
 {
 	"scores"
 	{
@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"avatar_width"		"50"	[$WIN32]
-		"name_width"		"125"	[$WIN32]
+		"name_width"		"100"	[$WIN32]
 		"status_width"		"15"	[$WIN32]
 		"nemesis_width"		"15"	[$WIN32]
 		"class_width"		"15"	[$WIN32]
@@ -25,13 +25,51 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"999999"
+		"xpos"			"c-257"
+		"xpos_minmode"  "c50"
+		"ypos"			"c-25"
+		"ypos_minmode"  "c-85"
+		"zpos"			"0"
+		"wide"			"120"
+		"wide_minmode"	"100"
+		"tall"			"25"
+		"tall_minmode"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"70 130 180 170"
+		"scaleImage"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedScoreBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"999999"
+		"xpos"			"c137"
+		"xpos_minmode"  "c50"
+		"ypos"			"c-25"
+		"ypos_minmode"  "c35"
+		"zpos"			"0"
+		"wide"			"120"
+		"wide_minmode"	"100"
+		"tall"			"25"
+		"tall_minmode"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"205 50 50 170"
+		"scaleImage"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"MainBG"
 	{
@@ -48,7 +86,7 @@
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-292"
+		"xpos"			"c-267"
 		"xpos_minmode"			"c45"
 		"ypos"			"c-25"	[$WIN32]
 		"ypos_minmode"			"c-85"	[$WIN32]
@@ -97,7 +135,7 @@
 		"textAlignment"	"east"
 		"textinsetx"	"20"
 		"xpos"		"c-200"
-		"xpos_minmode"		"c140"
+		"xpos_minmode"		"c110"
 		"ypos"		"c-40" 
 		"ypos_minmode"		"c-95" 
 		"zpos"		"4"
@@ -123,7 +161,7 @@
 		"textAlignment"	"east"
 		"textinsetx"	"20"
 		"xpos"		"c-199"
-		"xpos_minmode"		"c139"
+		"xpos_minmode"		"c109"
 		"ypos"		"c-39" 
 		"ypos_minmode"		"c-94" 
 		"zpos"		"4"
@@ -148,7 +186,7 @@
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-292"
+		"xpos"			"c-267"
 		"xpos_minmode"		"c150"
 		"ypos"			"c-15"
 		"ypos_minmode"		"c-90"
@@ -174,7 +212,7 @@
 		"textAlignment"		"east"
 		"textAlignment_minmode"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c92"
+		"xpos"			"c67"
 		"xpos_minmode"			"c45"
 		"ypos"			"c-25"	[$WIN32]
 		"ypos_minmode"			"c35"	[$WIN32]
@@ -201,7 +239,7 @@
 		"textAlignment_minmode"	"east"
 		"textinsetx"	"20"
 		"xpos"		"c0"
-		"xpos_minmode"		"c140"
+		"xpos_minmode"		"c110"
 		"ypos"		"c-40" 
 		"ypos_minmode"		"c25" 
 		"zpos"		"4"
@@ -228,7 +266,7 @@
 		"textAlignment_minmode"	"east"
 		"textinsetx"	"20"
 		"xpos"		"c1"
-		"xpos_minmode"		"c139"
+		"xpos_minmode"		"c109"
 		"ypos"		"c-39"
 		"ypos_minmode"		"c26" 
 		"zpos"		"4"
@@ -254,7 +292,7 @@
 		"textAlignment"		"east"
 		"textAlignment_minmode"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c92"
+		"xpos"			"c67"
 		"xpos_minmode"		"c150"
 		"ypos"			"c-15"
 		"ypos_minmode"			"c30"
@@ -324,12 +362,12 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-282"
+		"xpos"			"c-257"
 		"xpos_minmode"			"c48"
 		"ypos"			"c0"
 		"ypos_minmode"			"c-67"
 		"zpos"			"20"
-		"wide"			"285"
+		"wide"			"260"
 		"tall"			"178"	[$WIN32]
 		"tall_minmode"			"100"	[$WIN32]
 		"pinCorner"		"0"
@@ -354,7 +392,7 @@
 		"ypos"			"c0"
 		"ypos_minmode"			"c50"
 		"zpos"			"20"
-		"wide"			"285"
+		"wide"			"260"
 		"tall"			"178"	[$WIN32]
 		"tall_minmode"			"100"	[$WIN32]
 		"pinCorner"		"0"
@@ -1054,13 +1092,13 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"ScoreboardBG"
-		"xpos"			"c-282"
+		"xpos"			"c-257"
 		"xpos_minmode"	"c50"
 		"ypos"			"210"
 		"ypos_minmode"			"155"
 		"zpos"						"-2"
-		"wide"						"562"
-		"wide_minmode"		"280"
+		"wide"						"514"
+		"wide_minmode"		"257"
 		"tall"						"215"
 		"tall_minmode"		"240"
 		"visible"					"1"		
