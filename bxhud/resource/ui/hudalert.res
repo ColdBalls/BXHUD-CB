@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudAlertBG"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"320"
@@ -22,28 +22,28 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
-		"font"			"HudFontSmallBold"
-		"xpos"			"80"
-		"ypos"			"70"
+		"font"			"roboto14"
+		"xpos"			"c-60"
+		"ypos"			"c-100"
 		//"ypos_hidef"	"23"
 		//"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
-		"tall"			"55"
+		"wide"			"300"	[$WIN32]
+//		"wide"			"180"	[$X360]
+		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
-		"textAlignment"		"North"
+		"textAlignment"		"Center"
 	}
 	"AlertImage"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"AlertImage"
-		"xpos"			"25"
+		"xpos"			"9999"
 		"ypos"			"53"
 		"zpos"			"1"
 		"wide"			"50"
