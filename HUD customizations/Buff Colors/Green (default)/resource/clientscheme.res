@@ -18,6 +18,17 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+	
+	//	Health Colors for bxhud
+		"BuffedColor1"	"34 164 135 255"
+		"BuffedColor2"	"0 146 118 255"	
+		
+//		"BuffedColorAlt1"	"0 145 255 255"
+//		"BuffedColorAlt2"	"0 102 255 255"
+		
+		"LowColor1"		"221 74 56 255"	
+		"LowColor2"		"147 44 31 255"			
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -602,7 +613,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Bold"
-				"tall"		"21"
+				"tall"		"17"
 				"antialias"	"1"
 				"outline"	"1"
 			}
@@ -880,7 +891,7 @@ Scheme
 			"2"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
 			}
@@ -1353,7 +1364,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1365,7 +1376,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1455,7 +1466,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1774,7 +1785,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"tall_lodef"	"14"
 				"antialias" "1"
 				"weight"	"400"
@@ -2242,7 +2253,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"  [!$OSX]
+				"tall"		"12"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"400"
 				"additive"	"0"
@@ -2362,7 +2373,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2595,7 +2606,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2659,7 +2670,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
