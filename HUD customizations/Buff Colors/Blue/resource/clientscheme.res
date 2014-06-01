@@ -20,14 +20,16 @@ Scheme
 	{
 	
 	//	Health Colors for bxhud
-//		"BuffedColor1"	"34 164 135 255"
+//		"BuffedColor1"	"34 164 135 255" //Default Buff colors
 //		"BuffedColor2"	"0 146 118 255"	
 		
-		"BuffedColor1"	"0 145 255 255"
+		"BuffedColor1"	"0 145 255 255"	//Blue buffed colors
 		"BuffedColor2"	"0 102 255 255"
 		
 		"LowColor1"		"221 74 56 255"	
 		"LowColor2"		"147 44 31 255"			
+		
+		"HealthPickupColor"	"0 145 255 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

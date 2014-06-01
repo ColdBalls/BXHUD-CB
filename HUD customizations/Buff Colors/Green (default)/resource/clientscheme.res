@@ -29,6 +29,8 @@ Scheme
 		"LowColor1"		"221 74 56 255"	
 		"LowColor2"		"147 44 31 255"			
 		
+		"HealthPickupColor"	"0 255 0 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
