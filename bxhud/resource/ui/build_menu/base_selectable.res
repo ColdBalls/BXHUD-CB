@@ -42,7 +42,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"4"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"98"
@@ -58,7 +58,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
-		"xpos"			"22"
+		"xpos"			"9999"
 		"ypos"			"19"
 		"zpos"			"2"
 		"wide"			"56"
