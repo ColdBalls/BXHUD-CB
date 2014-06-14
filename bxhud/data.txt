@@ -4,5 +4,6 @@ creator=Cold Balls
 steamid= 76561198070085936
 url=https://github.com/ColdBalls/BXHUD-CB
 url=http://steamcommunity.com/groups/bxhud-cb
-version=1.6.7
+url=http://teamfortress.tv/thread/18297/bxhud-cb
+version=1.6.8
 update_url=https://github.com/ColdBalls/BXHUD-CB/archive/master.zip
