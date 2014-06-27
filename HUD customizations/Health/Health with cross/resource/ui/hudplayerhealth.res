@@ -15,50 +15,20 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}
-
-		"PlayerHealthCrossBG"
-	{
-		"ControlName"				"CExImageButton"
-		"fieldName"					"PlayerHealthCrossBG"
-		"xpos"						"c-60"
-		"ypos"						"c80"
-		"zpos"						"2"
-		"wide"						"30"
-		"tall"						"30"
-		"visible"					"1"		
-		"enabled"					"1"
-		"defaultbgcolor_override"	"0 0 0 130"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"				"999999"
-	}
-	
+	}	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"c-56"
-		"ypos"			"c84"
-		"zpos"			"4"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"xpos"			"c3"
+		"ypos"			"c37"
+		"wide"			"0"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"c-57"
-		"ypos"			"c83"
-		"zpos"			"4"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"xpos"			"999999"
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -101,7 +71,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusBleedImage"
-		"ypos"					"c72"
+		"ypos"					"c75"
 		"zpos"					"7"
 		"wide"					"15"
 		"tall"						"15"
@@ -115,7 +85,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusMilkImage"
-		"ypos"					"c72"
+		"ypos"					"c75"
 		"zpos"					"7"
 		"wide"					"15"
 		"tall"						"15"
@@ -129,7 +99,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusMarkedForDeathImage"
-		"ypos"					"c67"
+		"ypos"					"c65"
 		"zpos"					"7"
 		"wide"					"20"
 		"tall"						"20"
@@ -143,7 +113,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusMarkedForDeathSilentImage"
-		"ypos"					"c67"
+		"ypos"					"c65"
 		"zpos"					"7"
 		"wide"					"20"
 		"tall"						"20"
@@ -197,5 +167,21 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"999999"
+	}
+	
+	"PlayerStatus_Parachute"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_Parachute"
+		"xpos"			"0"
+		"ypos"			"c60"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
+		"fgcolor"		"255 255 255 255"
 	}
 }

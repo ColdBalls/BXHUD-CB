@@ -20,8 +20,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"cl5"
-		"ypos"			"c40"
+		"xpos"			"c3"
+		"ypos"			"c37"
 		"wide"			"0"
 	}		
 	"PlayerStatusHealthImageBG"
@@ -167,5 +167,21 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"999999"
+	}
+	
+	"PlayerStatus_Parachute"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_Parachute"
+		"xpos"			"0"
+		"ypos"			"c60"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
+		"fgcolor"		"255 255 255 255"
 	}
 }
