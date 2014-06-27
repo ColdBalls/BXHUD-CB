@@ -31,6 +31,9 @@ Scheme
 		
 		"HealthPickupColor"	"0 145 255 255"		
 		
+		"FullUberColor1"		"0 145 255 255"	
+		"FullUberColor2"		"0 102 255 255"	
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"

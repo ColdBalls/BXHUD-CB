@@ -474,10 +474,10 @@ event HudTournamentSetupPanelClose
 event HudMedicCharged
 {
 	
-	Animate	MedicUberPercentBG			BgColor		"34 164 135 255"		Linear 0.0 0.075
-	Animate	MedicUberPercentBG			BgColor		"0 146 118 255"			Linear 0.125 0.075
-	Animate	MedicUberBG				BgColor		"0 146 118 255"			Linear 0.0 0.075
-	Animate	MedicUberBG				BgColor		"34 164 135 255"		Linear 0.125 0.075
+	Animate	MedicUberPercentBG			BgColor		"FullUberColor1"		Linear 0.0 0.075
+	Animate	MedicUberPercentBG			BgColor		"FullUberColor2"			Linear 0.125 0.075
+	Animate	MedicUberBG				BgColor		"FullUberColor2"			Linear 0.0 0.075
+	Animate	MedicUberBG				BgColor		"FullUberColor1"		Linear 0.125 0.075
 
 	RunEvent HudMedicChargedLoop	0.6
 }

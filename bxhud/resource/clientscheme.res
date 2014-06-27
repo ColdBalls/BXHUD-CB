@@ -20,7 +20,7 @@ Scheme
 	{
 	
 	//	Health Colors for bxhud
-		"BuffedColor1"	"34 164 135 255"
+		"BuffedColor1"	"34 164 135 255" //default overheal colors
 		"BuffedColor2"	"0 146 118 255"	
 		
 //		"BuffedColorAlt1"	"0 145 255 255"
@@ -30,6 +30,9 @@ Scheme
 		"LowColor2"		"147 44 31 255"			
 		
 		"HealthPickupColor"	"0 255 0 255"
+		
+		"FullUberColor1"		"34 164 135 255"	
+		"FullUberColor2"		"0 146 118 255"	
 		
 		// base colors
 		"Orange"			"178 82 22 255"
