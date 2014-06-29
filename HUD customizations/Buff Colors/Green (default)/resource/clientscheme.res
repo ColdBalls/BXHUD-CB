@@ -1711,10 +1711,8 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"400"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"tall"		"22"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Italic"
@@ -1722,11 +1720,8 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"400"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"tall"		"22"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -1734,10 +1729,8 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"400"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"tall"		"22"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -1745,11 +1738,8 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"400"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"tall"		"22"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -1757,10 +1747,8 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"16"
-				"tall_hidef"	"24"
-				"weight"	"400"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"tall"		"22"
+				"antialias"	"1"
 			}
 		}
 		// this is the symbol font
