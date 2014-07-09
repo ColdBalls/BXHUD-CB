@@ -5,5 +5,5 @@ steamid= 76561198070085936
 url=https://github.com/ColdBalls/BXHUD-CB
 url=http://steamcommunity.com/groups/bxhud-cb
 url=http://teamfortress.tv/thread/18297/bxhud-cb
-version=1.7
+version=1.7.1
 update_url=https://github.com/ColdBalls/BXHUD-CB/archive/master.zip
