@@ -231,6 +231,29 @@
 		"textAlignment"	"center"
 	}
 	
+
+	"xHair" //requested by Miknando
+	{
+		"controlName" "CExLabel"
+		"fieldName" "xHair"
+		
+		"visible" "0"
+		"enabled" "1"
+		
+		"xpos" "1"
+		"ypos" "1"	
+		"zpos" "2"
+		
+		"wide" "f0"
+		"tall" "480"
+		
+		"font" "xHair"
+		"labelText" "8"
+		
+		"textAlignment" "center"
+		"fgcolor" "255 255 255 255"
+	}	
+	
 	//################################
 	    //FighterPilot Crosshair (Enable All)
 	//################################

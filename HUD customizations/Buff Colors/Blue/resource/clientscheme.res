@@ -603,6 +603,19 @@ Scheme
 				"outline"	"0"
 			}
 		}
+		
+		"xHair" 
+		{
+			"1" 
+			{
+				"name" "CrosshairsV3"
+				"tall" "10"
+				"weight" "0"
+				"antialias" "1"
+				"outline" "0"
+			}
+		}			
+		
 		"DamageFont"
 		{
 			"1"
