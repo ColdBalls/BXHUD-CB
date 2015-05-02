@@ -480,7 +480,7 @@
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"xpos"			"0"	[$WIN32]
 		"ypos"			"0"	[$WIN32]
@@ -488,20 +488,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 	}	
-
-	HudBowCharge
-	{
-		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"f0"
-		"tall"			"480"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
 
 	HudFlameRocketCharge
 	{
@@ -1640,9 +1626,7 @@
 		"tall"			"150"
 	}
 	
-
 	"HudMenuTauntSelection"
-
  	{
  		"fieldName" 	"HudMenuTauntSelection"
  		"visible" 		"1"
@@ -1652,4 +1636,26 @@
         "wide"          "470"
         "tall"          "200"   
  		"PaintBackgroundType"	"0"
-}
+	}
+	
+	"HudMiniGame"
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+	
+	"HudSpellMenu"
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
