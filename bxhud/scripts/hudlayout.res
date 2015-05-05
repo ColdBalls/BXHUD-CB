@@ -636,7 +636,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"280"
 		"wide"	 	"252"
 		"tall"	 	"30"
 		"priority"	"35"
@@ -1659,3 +1659,50 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
+	"HudBowCharge"
+	{
+		"fieldName"		"HudBowCharge"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"999999"	[$WIN32]
+		"ypos"			"c102"	[$WIN32]
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"8"
+	}
+	"CTFStreakNotice"
+	{
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"999999"			
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" 
+	}
+	"CTFFlagCalloutPanel"
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
+	}
+}

@@ -50,7 +50,7 @@
 		"textinsetx"		"20"
 		"xpos"			"c-267"
 		"xpos_minmode"			"c45"
-		"ypos"			"c-25"	[$WIN32]
+		"ypos"			"c-31"	[$WIN32]
 		"ypos_minmode"			"c-85"	[$WIN32]
 		"wide"			"200"
 		"tall"			"20"
@@ -73,7 +73,7 @@
 		"labelText"	"VS"
 		"textAlignment"	"center"
 		"xpos"		"c-200"
-		"ypos"		"c-38"	[$WIN32]
+		"ypos"		"c-44"	[$WIN32]
 		"ypos_minmode"		"99999"	[$WIN32]
 		"zpos"		"3"
 		"wide"		"400"
@@ -98,7 +98,7 @@
 		"textinsetx"	"20"
 		"xpos"		"c-200"
 		"xpos_minmode"		"c110"
-		"ypos"		"c-40" 
+		"ypos"		"c-46" 
 		"ypos_minmode"		"c-95" 
 		"zpos"		"4"
 		"wide"		"200"
@@ -124,7 +124,7 @@
 		"textinsetx"	"20"
 		"xpos"		"c-199"
 		"xpos_minmode"		"c109"
-		"ypos"		"c-39" 
+		"ypos"		"c-45" 
 		"ypos_minmode"		"c-94" 
 		"zpos"		"4"
 		"wide"		"200"
@@ -150,7 +150,7 @@
 		"textinsetx"		"20"
 		"xpos"			"c-267"
 		"xpos_minmode"		"c150"
-		"ypos"			"c-15"
+		"ypos"			"c-21"
 		"ypos_minmode"		"c-90"
 		"wide"			"100"
 		"tall"			"20"
@@ -176,7 +176,7 @@
 		"textinsetx"		"20"
 		"xpos"			"c67"
 		"xpos_minmode"			"c45"
-		"ypos"			"c-25"	[$WIN32]
+		"ypos"			"c-31"	[$WIN32]
 		"ypos_minmode"			"c35"	[$WIN32]
 		"wide"			"200"
 		"tall"			"20"
@@ -202,8 +202,8 @@
 		"textinsetx"	"20"
 		"xpos"		"c0"
 		"xpos_minmode"		"c110"
-		"ypos"		"c-40" 
-		"ypos_minmode"		"c25" 
+		"ypos"		"c-46" 
+		"ypos_minmode"		"c20" 
 		"zpos"		"4"
 		"wide"		"200"
 		"tall"		"40"
@@ -229,8 +229,8 @@
 		"textinsetx"	"20"
 		"xpos"		"c1"
 		"xpos_minmode"		"c109"
-		"ypos"		"c-39"
-		"ypos_minmode"		"c26" 
+		"ypos"		"c-45"
+		"ypos_minmode"		"c21" 
 		"zpos"		"4"
 		"wide"		"200"
 		"tall"		"40"
@@ -256,7 +256,7 @@
 		"textinsetx"		"20"
 		"xpos"			"c67"
 		"xpos_minmode"		"c150"
-		"ypos"			"c-15"
+		"ypos"			"c-21"
 		"ypos_minmode"			"c30"
 		"wide"			"200"
 		"tall"			"20"
@@ -757,7 +757,7 @@
 			"textAlignment"	"north-west"
 			"textinsetx"	"20"
 			"xpos"		"c-140"
-			"ypos"		"r25"	[$WIN32]
+			"ypos"		"r24"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -814,7 +814,7 @@
 			"textAlignment"	"south-east"
 			"textinsetx"	"20"
 			"xpos"		"c50"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"ypos"		"r49"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -833,7 +833,7 @@
 			"textAlignment"	"north-west"
 			"textinsetx"	"10"
 			"xpos"		"c50"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"ypos"		"r23"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"90"	[$WIN32]
 			"tall"		"25"
@@ -852,7 +852,7 @@
 			"textAlignment"	"north-east"
 			"textinsetx"	"20"
 			"xpos"		"c50"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"ypos"		"r24"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -1016,7 +1016,83 @@
 			"pinCorner"	"0"
 			"visible"	"1"
 			"enabled"	"1"
-		}	
+		}
+		"SupportLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"			"robotoreg10"
+			"fgcolor"		"255 255 255 255"
+			"labelText"		"#TF_Scoreboard_Support"
+			"textAlignment"	"south-west"
+			"textinsetx"	"10"
+			"xpos"			"c50"
+			"ypos"			"r62"
+			"zpos"			"3"
+			"wide"			"90"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"robotoreg12"
+			"fgcolor"		"255 255 255 255"
+			"labelText"		"%support%"
+			"textAlignment"	"south-east"
+			"textinsetx"	"20"
+			"xpos"			"c50"
+			"ypos"			"r61"
+			"zpos"			"3"
+			"wide"			"90"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"robotoreg10"
+			"fgcolor"		"255 255 255 255"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"	"south-west"
+			"textinsetx"	"20"
+			"xpos"			"c-140"
+			"ypos"			"r61"
+			"zpos"			"3"
+			"wide"			"90"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"robotoreg12"
+			"fgcolor"		"255 255 255 255"
+			"labelText"		"%damage%"
+			"textAlignment"	"south-east"
+			"textinsetx"	"10"
+			"xpos"			"c-140"
+			"ypos"			"r63"
+			"zpos"			"3"
+			"wide"			"90"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 		"MapName"
 		{
 			"ControlName"	"CExLabel"
@@ -1054,14 +1130,14 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"ScoreboardBG"
-		"xpos"			"c-257"
+		"xpos"			"c-263"
 		"xpos_minmode"	"c50"
-		"ypos"			"210"
-		"ypos_minmode"			"155"
+		"ypos"			"200"
+		"ypos_minmode"			"152"
 		"zpos"						"-2"
-		"wide"						"514"
+		"wide"						"526"
 		"wide_minmode"		"257"
-		"tall"						"215"
+		"tall"						"227"
 		"tall_minmode"		"240"
 		"visible"					"1"		
 		"enabled"					"1"

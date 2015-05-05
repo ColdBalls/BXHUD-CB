@@ -114,6 +114,35 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"999999"	[$WIN32]
 	}	
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ServerTimeLimitLabel"
+		"xpos"					"c-18"
+		"ypos"					"8"
+		"zpos"					"5"
+		"wide"					"35"
+		"tall"					"13"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%servertimeleft%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"wrap"					"0"
+		"font"					"roboto12"
+		"fgcolor"				"255 255 255 255"
+		"bgcolor_override"		"0 0 0 95"
+	}
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ServerTimeLimitLabelBG"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
+	}
 	"SetupLabel"
 	{
 		"ControlName"	"CExLabel"

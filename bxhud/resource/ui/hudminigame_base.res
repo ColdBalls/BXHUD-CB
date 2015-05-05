@@ -177,4 +177,4 @@
 		"PaintBackgroundType"		"0"
 		"TextInsetX"				"999999"
 	}
-
+}

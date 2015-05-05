@@ -100,7 +100,7 @@
 		"fieldName"			"TargetDataLabel"
 		"font"				"roboto10"
 		"xpos"				"30"
-		"ypos"				"18"	[$WIN32]
+		"ypos"				"15"	[$WIN32]
 		"zpos"				"1"
 		"wide"				"280"
 		"tall"				"10"

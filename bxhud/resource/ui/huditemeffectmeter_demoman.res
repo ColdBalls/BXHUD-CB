@@ -58,7 +58,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"ItemEffectMeterCount"
-		"xpos"		"c50"
+		"xpos"		"c55"
 		"ypos"		"c115"
 		"zpos"		"2"
 		"wide"		"20"
@@ -74,4 +74,19 @@
 		"font"		"roboto18"
 		"fgcolor"	"255 150 0 255"
 	}
+	"ItemEffectMeterDemoBG"
+	{
+		"ControlName"			"CExImageButton"
+		"fieldName"			"ItemEffectMeterDemoBG"
+		"xpos"				"c55"
+		"ypos"				"c115"
+		"zpos"				"2"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"		
+		"enabled"			"1"
+		"defaultbgcolor_override"	"0 0 0 130"
+		"PaintBackgroundType"		"0"
+		"TextInsetX"			"999999"
+	}					
 }

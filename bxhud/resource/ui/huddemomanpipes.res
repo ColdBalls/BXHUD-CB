@@ -22,7 +22,7 @@
 		"zpos"				"0"
 		"wide"				"20"
 		"tall"				"20"
-		"visible"			"1"		
+		"visible"			"0"		
 		"enabled"			"1"
 		"defaultbgcolor_override"	"0 0 0 130"
 		"PaintBackgroundType"		"0"
@@ -97,7 +97,22 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"999999"
-		}		
+		}
+		"PlayerStickyBG"
+		{
+		"ControlName"			"CExImageButton"
+		"fieldName"			"PlayerStickyBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"		
+		"enabled"			"1"
+		"defaultbgcolor_override"	"0 0 0 130"
+		"PaintBackgroundType"		"0"
+		"TextInsetX"			"999999"
+		}
 	}
 	
 	"NoPipesPresentPanel"
@@ -129,7 +144,7 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			"pinCorner"		"2"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
@@ -142,6 +157,21 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"999999"
-		}			
+		}
+		"PlayerStickyBG"
+		{
+		"ControlName"			"CExImageButton"
+		"fieldName"			"PlayerStickyBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"0"		
+		"enabled"			"1"
+		"defaultbgcolor_override"	"0 0 0 130"
+		"PaintBackgroundType"		"0"
+		"TextInsetX"			"999999"
+		}
 	}				
 }
