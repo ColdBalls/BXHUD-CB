@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
-		"xpos"				"c-200"
+		"xpos"				"c-152"
 		"ypos"				"r150"
 		"zpos"				"1"
 		"wide"				"400"
@@ -28,7 +28,7 @@
 		"xpos"			"73"
 		"ypos"			"123"
 		"zpos"			"0"
-		"wide"			"254"
+		"wide"			"160"
 		"tall"			"4"
 		"visible"		"1"
 		"enabled"		"1"
@@ -59,7 +59,7 @@
 		"xpos"			"73"
 		"ypos"			"123"
 		"zpos"			"4"
-		"wide"			"254"
+		"wide"			"160"
 		"tall"			"4"
 		"visible"		"0"
 		"enabled"		"1"
@@ -179,7 +179,7 @@
 				
 		"if_multiple_trains"
 		{
-			"ypos"			"48"
+			"ypos"			"49"
 			"zpos"			"8"
 			"wide"			"52"
 			"tall"			"170"
@@ -189,7 +189,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"
+			"font"			"robotoreg10"
 			"xpos"			"21"
 			"ypos"			"52"
 			"zpos"			"2"
@@ -362,7 +362,7 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
-			"xpos"			"19"
+			"xpos"			"9999"
 			"ypos"			"52"
 			"zpos"			"3"
 			"wide"			"5"
@@ -371,32 +371,15 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-			
-			"if_multiple_trains"
-			{
-				"xpos"			"20"
-				"wide"			"5"
-				"tall"			"10"
-			}
-			
-			"if_multiple_trains_top"
-			{
-				"ypos"			"45"
-			}	
-			
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"81"
-			}	
 		}
 
 		"CapNumPlayers"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"HudFontSmallest"
-			"xpos"			"24"
-			"ypos"			"53"
+			"font"			"robotoreg12"
+			"xpos"			"17"
+			"ypos"			"52"
 			"zpos"			"4"
 			"wide"			"20"
 			"tall"			"7"
@@ -405,16 +388,18 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"#ControlPointIconCappers"
-			"textAlignment"	"west"
+			"textAlignment"	"Center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"
-				"xpos"			"25"
-				"wide"			"30"
-				"tall"			"10"
+				"xpos"			"17"
+				"ypos"			"44"
+				"wide"			"20"
+				"tall"			"8"
+				"font"			"robotoreg14"
 			}			
 			
 			"if_multiple_trains_top"
@@ -468,17 +453,17 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
-			"xpos"				"999999"
-			"ypos"				"8"
+			"xpos"				"8"
+			"ypos"				"16"
 			"zpos"				"20"
 			"wide"				"65"
-			"tall"				"42"	
+			"tall"				"36"	
 			"visible"			"0"
 			"enabled"			"1"
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"99999"
+				"xpos"			"9"
 				"ypos"			"2"			
 				"wide"			"65"			
 				"tall"			"42"			
@@ -488,53 +473,14 @@
 			{
 				"ControlName"		"CIconPanel"
 				"fieldName"			"Teardrop"
-				"xpos"				"0"
-				"ypos"				"0"
-				"zpos"				"0"
-				"wide"				"35"	
-				"tall"				"42"
-				"visible"			"1"
-				"enabled"			"1"
-				"scaleImage"		"1"
-				"icon"				"cappoint_progressbar_teardrop"
-				"iconColor"			"255 255 255 255"
-				
-				"if_multiple_trains"
-				{
-					"xpos"			"0"
-					"ypos"			"0"			
-					"wide"			"35"			
-					"tall"			"42"			
-				}	
+				"xpos"				"999999"
 			}
 
 			"ProgressText"
 			{	
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
-				"font"				"DefaultSmall"
-				"xpos"				"0"
-				"ypos"				"3"
-				"zpos"				"23"
-				"wide"				"35"
-				"tall"				"28"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"enabled"			"1"
-				"labelText"			"progress"
-				"dulltext"			"0"
-				"brighttext"		"0"
-				"centerwrap"		"1"
-				
-				"if_multiple_trains"
-				{
-					"font"			"DefaultVerySmall"
-					"xpos"			"0"
-					"ypos"			"3"			
-					"wide"			"35"			
-					"tall"			"28"			
-				}	
+				"xpos"				"999999"
 			}
 
 			"Blocked"
@@ -565,27 +511,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"Capping"	
-				"xpos"			"8"
-				"ypos"			"8"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		""
-				"image"			"../hud/cart_arrow_right"
-				"scaleImage"	"1"	
-				
-				"if_multiple_trains"
-				{
-					"xpos"			"8"
-					"ypos"			"8"			
-					"wide"			"20"			
-					"tall"			"20"			
-				}		
+				"xpos"			"9999999"
+				"ypos"			"8"	
 			}			
 		}
 	}
