@@ -187,28 +187,36 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0" 
+		"xpos"			"r174"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"190"
+		"wide"			"160"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
 		
-		"model_ypos"		"10"
+		"model_ypos"		"40"
 		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
+		"model_wide"		"60"
+		"model_tall"		"40"
 		
-		"text_ypos"		"20"
-		"text_xpos"		"35"
-		"text_wide"		"131"
+		"text_xpos"		"2"
+		"text_ypos"		"10"
+		"text_wide"		"156"
 		"text_center"	"1"
 		
+		"max_text_height"	"100"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
-		"text_forcesize"	"2"
+		"text_forcesize"	"3"
+		
+		"itemmodelpanel"
+		{
+			"fieldName"		"itemmodelpanel"
+			"use_item_rendertarget" "0"
+			"useparentbg"		"1"
+		}
 		
 		"ItemBG"
 		{
@@ -223,40 +231,31 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 150"
-		}
-		
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
-		}
+			"fillcolor"		"0 0 0 180"
+		}		
 		
 		"ItemLabel"
 		{	
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"robotoreg12"
-			"fgcolor"		"255 255 255 255"
-			"xpos"			"5"
-			"ypos"			"5"
+			"font"			"roboto12"
+			"xpos"			"10"
+			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"180"
-			"tall"			"10"
+			"wide"			"270"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"north-west"
+			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
 	}	
-		"spectator_extras"
-		{
+	"spectator_extras"
+	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"spectator_extras"
 		"xpos"			"0"
@@ -267,5 +266,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		}
+	}
 }
