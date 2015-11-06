@@ -220,7 +220,23 @@
 		"image"			""
 		"fgcolor"		"255 255 255 255"
 	}
-		"PlayerStatus_RuneStrength"
+	
+	"PlayerStatus_SpyMarked"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "PlayerStatus_SpyMarked"
+		"ypos"			"c67"
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible" "1"
+		"enabled" "1"
+		"scaleImage" "1" 
+		"image" ""
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneStrength"
@@ -295,10 +311,10 @@
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
 	}
-	"PlayerStatus_RuneWarlock"
+	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneWarlock"
+		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"0"
 		"ypos"			"c62"
 		"zpos"			"7"
@@ -307,7 +323,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../Effects/powerup_warlock_hud"
+		image"                        "../Effects/powerup_reflect_hud"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatus_RunePrecision"
@@ -340,7 +356,7 @@
 		"image"			"../Effects/powerup_agility_hud"
 		"fgcolor"		"TanDark"
 	}
-		"PlayerStatus_RuneKnockout"
+	"PlayerStatus_RuneKnockout"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKnockout"
@@ -354,6 +370,51 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_Knockout_hud"
 		"fgcolor"		"255 255 255 255"
+	}
+	"PlayerStatus_RuneKing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKing"
+		"xpos"			"0"
+		"ypos"			"c67"
+		"zpos"			"7"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_king_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RunePlague"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePlague"
+		"xpos"			"0"
+		"ypos"			"c67"
+		"zpos"			"7"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_plague_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneSupernova"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneSupernova"
+		"xpos"			"0"
+		"ypos"			"c67"
+		"zpos"			"7"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
 	}
 	
 }

@@ -318,6 +318,14 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
+		if_operation
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
 	}
 					
 	"TFLogoImage"

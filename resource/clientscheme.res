@@ -121,6 +121,12 @@ Scheme
 		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
 		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 		
+		"HalloweenThemeColor2015_Light"	"238 126 17 255"
+		"HalloweenThemeColor2015"		"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"
+		
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
@@ -2518,12 +2524,48 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
+			}
+		}
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
 			{
 				"name"		"Roboto Condensed Regular"
-				"tall"		"10"
+				"tall"		"7"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
