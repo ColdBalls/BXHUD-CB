@@ -14,24 +14,19 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"15"
-		"avatar_width"		"57"	[$WIN32]
-		"avatar_width"		"0"		[$X360]
-		"name_width"		"70"	[$WIN32]
-		"name_width"		"150"	[$X360]
-		"name_width_short"	"85"	[$WIN32]		
-		"status_width"		"15"	[$WIN32]
-		"status_width"		"12"	[$X360]
-		"nemesis_width"		"15"	[$WIN32]
-		"nemesis_width"		"20"	[$X360]
-		"class_width"		"15"	[$WIN32]
-		"class_width"		"20"	[$X360]
+		"avatar_width"		"57"
+		"spacer"                        "5"
+		"name_width"		"70"
+		"name_width_short"	"65"			
+		"nemesis_width"		"15"
+		"class_width"		"15"	
 		"score_width"		"25"
 		"score_width_lodef"	"35"
 		"score_width_hidef"	"50"
-		"ping_width"		"23"	[$WIN32]
-		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
+		"ping_width"		"23"	
 		"stats_width"		"30"
-		"killstreak_width"	"20"
+		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
