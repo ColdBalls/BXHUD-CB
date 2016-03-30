@@ -21,6 +21,14 @@
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
+	"PlayCompetitiveButton"
+	{
+		"label" "#MMenu_PlayComp" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
+	}
+	
 	"PlayPVEButton"
 	{
 		"label" "Play MVM" 
@@ -65,7 +73,7 @@
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "Create server"
+		"label" "+"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
@@ -87,7 +95,7 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"		"Vote"
+		"label"		"V"
 		"command"	"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
@@ -95,7 +103,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute"
+		"label"			"M"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
@@ -108,5 +116,13 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			"R"
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

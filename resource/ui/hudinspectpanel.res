@@ -33,6 +33,7 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type" "1"
 		}
 		
 		"ItemBG"
@@ -48,7 +49,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 180"
+			"fillcolor"		"0 0 0 130"
 		}		
 		
 		"ItemLabel"

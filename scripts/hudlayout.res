@@ -1071,7 +1071,10 @@
 
 		"item_wide"	"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
+		
+		"fade_in_time"		"0.05"
+		"fade_out_time"		"0.05"
 		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
@@ -1716,7 +1719,7 @@
 		"tall"                        "f0"
 		"PaintBackgroundType"        "0"
     }
- "QuestNotificationPanel"
+	"QuestNotificationPanel"
     {
 		"fieldName"        "QuestNotificationPanel"
 		"visible" "1"
@@ -1738,5 +1741,16 @@
 		"wide"                         "f0"
 		"tall"                         "f0"
     }
+	
+	"MatchSummary"
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"  "0"
+		"ypos"  "0"
+		"wide"  "f0"
+		"tall"  "f0"
+	}
 	
 }
